@@ -15,8 +15,24 @@ function start(client) {
           event.chat,
           'Fajana Paro ko!',
           [
-            { id: 'button1', text: 'chapter2' },
-            { id: 'button2', text: 'chapter3' },
+            { id: 'button1', text: 'chapter1' },
+            { id: 'button2', text: 'chapter2' },
+            { id: 'button3', text: 'chapter3' },
+            { id: 'button4', text: 'chapter4' },
+            { id: 'button5', text: 'chapter5' },
+            { id: 'button6', text: 'chapter6' },
+            { id: 'button7', text: 'chapter7' },
+            { id: 'button8', text: 'chapter8' },
+            { id: 'button9', text: 'chapter9' },
+            { id: 'button10', text: 'chapter10' },
+            { id: 'button11', text: 'chapter11' },
+            { id: 'button12', text: 'chapter12' },
+            { id: 'button13', text: 'chapter13' },
+            { id: 'button14', text: 'chapter14' },
+            { id: 'button15', text: 'chapter15' },
+            { id: 'button16', text: 'chapter16' },
+          
+          
           ],
           'Materials',
           '-Sir Loya'
@@ -31,6 +47,10 @@ function start(client) {
       case 'materials':
         await client.sendText(message.from, '  Hello \n\n Dear unofficail whatsapp user ! \n\n Type exactly chapter2 to get *chapter 2* notes \n\n Type exactly chapter3 to get *chapter 3* notes  ');
         break;
+      case 'chapter1':
+        await client.sendText(message.from, 'This chapter has been removed and the syllabus for 2021 has not been updated yet!');
+        break;
+        
       case 'chapter2':
             client.sendFile(message.from, 'https://drive.google.com/uc?id=1X3GNKpA281sByjQpgDwWEw4ebi2-ITmV&export=download' , 'chapter2.pdf', 'check this pdf', null, true)
                client.sendText(message.from,' *sending* ........ it could take 1 or 2mins to send!');
@@ -39,7 +59,47 @@ function start(client) {
        case 'chapter3':         
                client.sendFile(message.from, 'https://drive.google.com/uc?id=1h3BNg0-t7G8kx9X6HqhsMrm2a6RoeXA6&export=download' , 'chapter3.pdf', 'check this pdf', null, true)
                client.sendText(message.from,' *sending* ........ it could take 1 or 2mins to send!');   
-         break;      
+         break;
+      case 'chapter4':
+         await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '
+          break;  
+      case 'chapter5':
+         await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '
+          break;
+      case 'chapter6':
+         await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '
+          break;
+      case 'chapter7':
+         await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '
+          break;
+      case 'chapter8':
+         await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '
+          break;
+      case 'chapter9':
+         await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '
+          break;
+      case 'chapter10':
+         await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '
+          break;
+      case 'chapter11':
+         await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '
+          break;
+      case 'chapter12':
+         await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '
+          break;
+      case 'chapter13':
+         await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '
+          break;
+      case 'chapter14':
+         await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '
+          break;
+      case 'chapter15':
+         await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '
+          break;
+       case 'chapter16':
+         await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '
+          break;
+                               
         case 'meetingid':
                await client.sendText(message.from, 'Zoom has to be  installed first! \n\n *Meeting ID* : 2087463769 \n\n *Password* : 12345 ');
                break;
