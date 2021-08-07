@@ -61,43 +61,43 @@ function start(client) {
                client.sendText(message.from,' *sending* ........ it could take 1 or 2mins to send!');   
          break;
       case 'chapter4':
-         await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '
+         await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '); 
           break;  
       case 'chapter5':
-         await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '
+         await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '); 
           break;
       case 'chapter6':
-         await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '
+         await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '); 
           break;
       case 'chapter7':
-         await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '
+         await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '); 
           break;
       case 'chapter8':
-         await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '
+         await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '); 
           break;
       case 'chapter9':
-         await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '
+         await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '); 
           break;
       case 'chapter10':
-         await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '
+         await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '); 
           break;
       case 'chapter11':
-         await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '
+         await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '); 
           break;
       case 'chapter12':
-         await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '
+         await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '); 
           break;
       case 'chapter13':
-         await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '
+         await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '); 
           break;
       case 'chapter14':
-         await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '
+         await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '); 
           break;
       case 'chapter15':
-         await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '
+         await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '); 
           break;
        case 'chapter16':
-         await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '
+         await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '); 
           break;
                                
         case 'meetingid':
