@@ -100,7 +100,9 @@ function start(client) {
           'Materials',
           '-Sir Loya'
         );
-  
+  }
+  });
+
 
   client.onMessage(async (message) => {
    const command = (message.body || "").toLowerCase();
