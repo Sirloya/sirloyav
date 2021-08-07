@@ -125,13 +125,16 @@ function start(client) {
                client.sendText(message.from,' *sending* ........ it could take 1 or 2mins to send!');   
          break;
       case 'chapter4':
-         await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '); 
+             client.sendFile(message.from, 'https://drive.google.com/uc?id=1ovSHWBOAJxXivp6WhW6TA9jc1LH9PzKA&export=download' , 'chapter3.pdf', 'check this pdf', null, true)
+               client.sendText(message.from,' *sending* ........ it could take 1 or 2mins to send!');    
           break;  
       case 'chapter5':
-         await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '); 
+          client.sendFile(message.from, 'https://drive.google.com/uc?id=1dDMC1mDbLe8_USKcGdbY16V48b9P5CCX&export=download' , 'chapter3.pdf', 'check this pdf', null, true)
+               client.sendText(message.from,' *sending* ........ it could take 1 or 2mins to send!');   
           break;
       case 'chapter6':
-         await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '); 
+          client.sendFile(message.from, 'https://drive.google.com/uc?id=1nHx_oHLiLACb1JdptYR38Rh-FQvyvKTs&export=download' , 'chapter3.pdf', 'check this pdf', null, true)
+               client.sendText(message.from,' *sending* ........ it could take 1 or 2mins to send!');    
           break;
       case 'chapter7':
          await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '); 
