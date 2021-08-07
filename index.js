@@ -17,28 +17,90 @@ function start(client) {
           [
             { id: 'button1', text: 'chapter1' },
             { id: 'button2', text: 'chapter2' },
-            { id: 'button3', text: 'chapter3' },
-            { id: 'button4', text: 'chapter4' },
-            { id: 'button5', text: 'chapter5' },
-            { id: 'button6', text: 'chapter6' },
-            { id: 'button7', text: 'chapter7' },
-            { id: 'button8', text: 'chapter8' },
-            { id: 'button9', text: 'chapter9' },
-            { id: 'button10', text: 'chapter10' },
-            { id: 'button11', text: 'chapter11' },
-            { id: 'button12', text: 'chapter12' },
-            { id: 'button13', text: 'chapter13' },
-            { id: 'button14', text: 'chapter14' },
-            { id: 'button15', text: 'chapter15' },
-            { id: 'button16', text: 'chapter16' },
-          
-          
           ],
           'Materials',
           '-Sir Loya'
         );
-  }
-  });
+            
+            
+    await client.sendButtons(
+          event.chat,
+          'Fajana Paro ko!',
+          [
+            { id: 'button3', text: 'chapter3' },
+            { id: 'button4', text: 'chapter4' },
+          ],
+          'Materials',
+          '-Sir Loya'
+        );
+         
+     await client.sendButtons(
+          event.chat,
+          'Fajana Paro ko!',
+          [  
+            
+            { id: 'button5', text: 'chapter5' },
+            { id: 'button6', text: 'chapter6' },
+          ],
+          'Materials',
+          '-Sir Loya'
+        );
+             
+    await client.sendButtons(
+          event.chat,
+          'Fajana Paro ko!',
+          [ 
+            { id: 'button7', text: 'chapter7' },
+            { id: 'button8', text: 'chapter8' },
+          ],
+          'Materials',
+          '-Sir Loya'
+        );
+          
+     await client.sendButtons(
+          event.chat,
+          'Fajana Paro ko!',
+          [ 
+            { id: 'button9', text: 'chapter9' },
+            { id: 'button10', text: 'chapter10' },
+          ],
+          'Materials',
+          '-Sir Loya'
+        );
+          
+     await client.sendButtons(
+          event.chat,
+          'Fajana Paro ko!',
+          [
+            { id: 'button11', text: 'chapter11' },
+            { id: 'button12', text: 'chapter12' },
+          ],
+          'Materials',
+          '-Sir Loya'
+        );
+            
+     await client.sendButtons(
+          event.chat,
+          'Fajana Paro ko!',
+          [
+            { id: 'button13', text: 'chapter13' },
+            { id: 'button14', text: 'chapter14' },
+          ],
+          'Materials',
+          '-Sir Loya'
+        );
+  
+     await client.sendButtons(
+          event.chat,
+          'Fajana Paro ko!',
+          [
+            { id: 'button15', text: 'chapter15' },
+            { id: 'button16', text: 'chapter16' },
+          ],
+          'Materials',
+          '-Sir Loya'
+        );
+  
 
   client.onMessage(async (message) => {
    const command = (message.body || "").toLowerCase();
