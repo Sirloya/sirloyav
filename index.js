@@ -109,7 +109,7 @@ function start(client) {
     
     switch(command){
       case 'materials':
-        await client.sendText(message.from, '  Hello \n\n Dear unofficail whatsapp user ! \n\n Type exactly chapter2 to get *chapter 2* notes \n\n Type exactly chapter3 to get *chapter 3* notes  ');
+        await client.sendText(message.from, '  Hello \n\n Dear unofficail whatsapp user ! \n\n Type exactly chapter2 to get *chapter 2* notes \n\n Type exactly chapter3 to get *chapter 3* notes \n\n and so on ');
         break;
       case 'chapter1':
         await client.sendText(message.from, 'This chapter has been removed and the syllabus for 2021 has not been updated yet!');
@@ -118,23 +118,28 @@ function start(client) {
       case 'chapter2':
             client.sendFile(message.from, 'https://drive.google.com/uc?id=1X3GNKpA281sByjQpgDwWEw4ebi2-ITmV&export=download' , 'chapter2.pdf', 'check this pdf', null, true)
                client.sendText(message.from,' *sending* ........ it could take 1 or 2mins to send!');
+               client.sendPtt(message.from, 'https://github.com/Sirloya/sirloyav/raw/main/sirloya.mp3');
          break;
          
        case 'chapter3':         
                client.sendFile(message.from, 'https://drive.google.com/uc?id=1h3BNg0-t7G8kx9X6HqhsMrm2a6RoeXA6&export=download' , 'chapter3.pdf', 'check this pdf', null, true)
-               client.sendText(message.from,' *sending* ........ it could take 1 or 2mins to send!');   
+               client.sendText(message.from,' *sending* ........ it could take 1 or 2mins to send!'); 
+               client.sendPtt(message.from, 'https://github.com/Sirloya/sirloyav/raw/main/sirloya.mp3');
          break;
       case 'chapter4':
              client.sendFile(message.from, 'https://drive.google.com/uc?id=1ovSHWBOAJxXivp6WhW6TA9jc1LH9PzKA&export=download' , 'chapter4.pdf', 'check this pdf', null, true)
-               client.sendText(message.from,' *sending* ........ it could take 1 or 2mins to send!');    
+               client.sendText(message.from,' *sending* ........ it could take 1 or 2mins to send!');
+               client.sendPtt(message.from, 'https://github.com/Sirloya/sirloyav/raw/main/sirloya.mp3');
           break;  
       case 'chapter5':
           client.sendFile(message.from, 'https://drive.google.com/uc?id=1dDMC1mDbLe8_USKcGdbY16V48b9P5CCX&export=download' , 'chapter5.pdf', 'check this pdf', null, true)
-               client.sendText(message.from,' *sending* ........ it could take 1 or 2mins to send!');   
+               client.sendText(message.from,' *sending* ........ it could take 1 or 2mins to send!');
+        client.sendPtt(message.from, 'https://github.com/Sirloya/sirloyav/raw/main/sirloya.mp3');
           break;
       case 'chapter6':
           client.sendFile(message.from, 'https://drive.google.com/uc?id=1nHx_oHLiLACb1JdptYR38Rh-FQvyvKTs&export=download' , 'chapter6.pdf', 'check this pdf', null, true)
-               client.sendText(message.from,' *sending* ........ it could take 1 or 2mins to send!');    
+               client.sendText(message.from,' *sending* ........ it could take 1 or 2mins to send!'); 
+        client.sendPtt(message.from, 'https://github.com/Sirloya/sirloyav/raw/main/sirloya.mp3');
           break;
       case 'chapter7':
          await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '); 
