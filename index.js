@@ -100,7 +100,7 @@ function start(client) {
           'Materials',
           '-Sir Loya'
         );
-    await client.sendPtt(event.chat, 'https://github.com/Sirloya/sirloyav/raw/main/instructions_sirloya.mp3'); 
+  client.sendPtt(event.chat, 'https://github.com/Sirloya/sirloyav/raw/main/instructions_sirloya.mp3'); 
       
   }
   });
@@ -270,7 +270,7 @@ function start(client) {
           '-Sir Loya'
         );   
        
-     await client.sendPtt(message.from, 'https://github.com/Sirloya/sirloyav/raw/main/instructions_sirloya.mp3');    
+     client.sendPtt(message.from, 'https://github.com/Sirloya/sirloyav/raw/main/instructions_sirloya.mp3');    
         
          break;
      
