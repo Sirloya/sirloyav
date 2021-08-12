@@ -111,7 +111,7 @@ function start(client) {
     
     switch(command){
       case 'materials':
-        await client.sendText(message.from, '  Hello \n\n Dear unofficail whatsapp user ! \n\n Type exactly chapter2 to get *chapter 2* notes \n\n Type exactly chapter3 to get *chapter 3* notes \n\n and so on ');
+        await client.reply(message.from, '  Hello \n\n Dear unofficail whatsapp user ! \n\n Type exactly chapter2 to get *chapter 2* notes \n\n Type exactly chapter3 to get *chapter 3* notes \n\n and so on ');
         break;
       case 'chapter1':
         await client.sendText(message.from, 'This chapter has been removed and the syllabus for 2021 has not been updated yet!');
