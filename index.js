@@ -111,75 +111,74 @@ function start(client) {
     
     switch(command){
       case 'materials':
-        await client.reply(message.from, '  Hello \n\n Dear unofficail whatsapp user ! \n\n Type exactly chapter2 to get *chapter 2* notes \n\n Type exactly chapter3 to get *chapter 3* notes \n\n and so on ');
+        await client.reply(message.from, '  Hello \n\n Dear unofficail whatsapp user ! \n\n Type exactly chapter2 to get *chapter 2* notes \n\n Type exactly chapter3 to get *chapter 3* notes \n\n and so on ', message.id);
         break;
       case 'chapter1':
-        await client.sendText(message.from, 'This chapter has been removed and the syllabus for 2021 has not been updated yet!');
+        await client.reply(message.from, 'This chapter has been removed and the syllabus for 2021 has not been updated yet!', message.id);
         break;
         
       case 'chapter2':
             client.sendFile(message.from, 'https://drive.google.com/uc?id=1X3GNKpA281sByjQpgDwWEw4ebi2-ITmV&export=download' , 'chapter2.pdf', 'check this pdf', null, true)
-               client.sendText(message.from,' *sending* ........ it could take 1 or 2mins to send!');
+               client.reply(message.from,' *sending* ........ it could take 1 or 2mins to send!', message.id);
                client.sendPtt(message.from, 'https://github.com/Sirloya/sirloyav/raw/main/sirloya.mp3');
          break;
          
        case 'chapter3':         
                client.sendFile(message.from, 'https://drive.google.com/uc?id=1h3BNg0-t7G8kx9X6HqhsMrm2a6RoeXA6&export=download' , 'chapter3.pdf', 'check this pdf', null, true)
-               client.sendText(message.from,' *sending* ........ it could take 1 or 2mins to send!'); 
+               client.reply(message.from,' *sending* ........ it could take 1 or 2mins to send!', message.id); 
                client.sendPtt(message.from, 'https://github.com/Sirloya/sirloyav/raw/main/sirloya.mp3');
          break;
       case 'chapter4':
              client.sendFile(message.from, 'https://drive.google.com/uc?id=1ovSHWBOAJxXivp6WhW6TA9jc1LH9PzKA&export=download' , 'chapter4.pdf', 'check this pdf', null, true)
-               client.sendText(message.from,' *sending* ........ it could take 1 or 2mins to send!');
+               client.replyt(message.from,' *sending* ........ it could take 1 or 2mins to send!', message.id);
                client.sendPtt(message.from, 'https://github.com/Sirloya/sirloyav/raw/main/sirloya.mp3');
           break;  
       case 'chapter5':
           client.sendFile(message.from, 'https://drive.google.com/uc?id=1dDMC1mDbLe8_USKcGdbY16V48b9P5CCX&export=download' , 'chapter5.pdf', 'check this pdf', null, true)
-               client.sendText(message.from,' *sending* ........ it could take 1 or 2mins to send!');
+               client.reply(message.from,' *sending* ........ it could take 1 or 2mins to send!', message.id);
         client.sendPtt(message.from, 'https://github.com/Sirloya/sirloyav/raw/main/sirloya.mp3');
           break;
       case 'chapter6':
           client.sendFile(message.from, 'https://drive.google.com/uc?id=1nHx_oHLiLACb1JdptYR38Rh-FQvyvKTs&export=download' , 'chapter6.pdf', 'check this pdf', null, true)
-               client.sendText(message.from,' *sending* ........ it could take 1 or 2mins to send!'); 
+               client.reply(message.from,' *sending* ........ it could take 1 or 2mins to send!', message.id); 
         client.sendPtt(message.from, 'https://github.com/Sirloya/sirloyav/raw/main/sirloya.mp3');
           break;
       case 'chapter7':
-         await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '); 
+         await client.reply(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson ', message.id); 
           break;
       case 'chapter8':
-         await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '); 
+         await client.reply(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson ', message.id); 
           break;
       case 'chapter9':
-         await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '); 
+         await client.reply(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson ', message.id); 
           break;
       case 'chapter10':
-         await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '); 
+         await client.reply(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson ', message.id); 
           break;
       case 'chapter11':
-         await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '); 
+         await client.reply(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson ', message.id); 
           break;
       case 'chapter12':
-         await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '); 
+         await client.reply(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson ', message.id); 
           break;
       case 'chapter13':
-         await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '); 
+         await client.reply(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson ', message.id); 
           break;
       case 'chapter14':
-         await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '); 
+         await client.reply(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson ', message.id); 
           break;
       case 'chapter15':
-         await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '); 
+         await client.reply(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson ', message.id); 
           break;
        case 'chapter16':
-         await client.sendText(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson '); 
+         await client.reply(message.from, ' *Locked* 🔒 \n\n Will get unlocked when we start the lesson ', message.id); 
           break;
                                
         case 'meetingid':
                await client.sendText(message.from, 'Zoom has to be  installed first! \n\n *Meeting ID* : 2087463769 \n\n *Password* : 12345 ');
                break;
         case 'menu':
-               await client.sendText(message.from, ` ✨We are on Chapter 3, Chapter 2 takpa loire! \n\n Zoom has to be  installed first! \n\n *Meeting ID* : 2087463769 \n\n *Password* : 12345 \n\n ✨Material pamba singdo hwjik fw tak pada makha da leire \n\n  /(_in case you messed up, since you are a human_  LOL!)/  \n\n *note* :✨ _if you are using gb or fm or any other unofficial whatsapp, type materials in the chat to show the menu_ ✨ \n\n✨ *Group rules* ✨  \n\n1) Respect everyone here in this group \n\n2) Sharing memes is prohibited \n\n3) Don't send unnecessary messages! \n\n✨ *Feel free to ask and discuss lessons related to biology and topics taught on class* ✨\n  _final words: if you want to show this message again, type 'menu' `
-      );
+               await client.reply(message.from, ` ✨We are on Chapter 3, Chapter 2 takpa loire! \n\n Zoom has to be  installed first! \n\n *Meeting ID* : 2087463769 \n\n *Password* : 12345 \n\n ✨Material pamba singdo hwjik fw tak pada makha da leire \n\n  /(_in case you messed up, since you are a human_  LOL!)/  \n\n *note* :✨ _if you are using gb or fm or any other unofficial whatsapp, type materials in the chat to show the menu_ ✨ \n\n✨ *Group rules* ✨  \n\n1) Respect everyone here in this group \n\n2) Sharing memes is prohibited \n\n3) Don't send unnecessary messages! \n\n✨ *Feel free to ask and discuss lessons related to biology and topics taught on class* ✨\n  _final words: if you want to show this message again, type 'menu' `, message.id);
    await client.sendButtons(
           message.from,
           'Fajana Paro ko!',
