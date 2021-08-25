@@ -110,6 +110,9 @@ function start(client) {
    const command = (message.body || "").toLowerCase();
     
     switch(command){
+      case 'alive?':
+        client.sendText(message.from, ' _yes i am alive_ ');
+      break;  
       case 'materials':
         await client.reply(message.from, '  Hello \n\n Dear unofficail whatsapp user ! \n\n Type exactly chapter2 to get *chapter 2* notes \n\n Type exactly chapter3 to get *chapter 3* notes \n\n and so on ', message.id);
         break;
