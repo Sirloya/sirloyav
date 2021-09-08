@@ -137,7 +137,7 @@ function start(client) {
                client.sendPtt(message.from, 'https://github.com/Sirloya/sirloyav/raw/main/sirloya.mp3');
           break;  
       case 'chapter5':
-          client.sendFile(message.from, 'https://drive.google.com/uc?id=1dDMC1mDbLe8_USKcGdbY16V48b9P5CCX&export=download' , 'chapter5.pdf', 'check this pdf', null, true)
+          client.sendFile(message.from, 'https://drive.google.com/uc?id=1hY5wsXJhgCCQCDhau3jBu2gHTPZOxPUF&export=download' , 'chapter5.pdf', 'check this pdf', null, true)
                client.sendText(message.from,' *sending* ........ it could take 1 or 2mins to send!');
          client.sendFile(message.from, 'https://drive.google.com/uc?id=1qJU6qmOogVt1PaCiYS0CFR1dux-IGew6&export=download' , 'genetics-newest.pdf', 'check this pdf', null, true)
         client.sendPtt(message.from, 'https://github.com/Sirloya/sirloyav/raw/main/sirloya.mp3');
