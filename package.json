@@ -4,7 +4,7 @@
   },
   "dependencies": {
     "express": "^4.17.1",
-    "@open-wa/wa-automate": "^4.13.1" 
+    "@open-wa/wa-automate": "^4.21.0" 
     
   }
 }
